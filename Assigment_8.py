@@ -14,7 +14,7 @@ print(f"\nWelcome {users_name}!")
 account = BankAccount(users_name)
 option = "A"
 
-#Here is the program loops the options until the users chooses "D":
+#Here the program loops the options until the users chooses "D":
 
 while option in ["A","B","C"]:
 
