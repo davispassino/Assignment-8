@@ -1,6 +1,6 @@
 #Here is where my program imports the needed functions:
 
-from bank_account_file import Bank_account
+from bank_account_file import BankAccount
 from account_option_functions import choose_an_option, validate_option
 
 #Here the program welcomes you and asks your name:
@@ -11,10 +11,10 @@ print(f"\nWelcome {users_name}!")
 
 #Here my variables are defined:
 
-account = Bank_account(users_name)
+account = BankAccount(users_name)
 option = "A"
 
-#Here is the the program loops the options until the users chooses "D":
+#Here is the program loops the options until the users chooses "D":
 
 while option in ["A","B","C"]:
 
@@ -28,4 +28,4 @@ while option in ["A","B","C"]:
     elif option == "C":
         account.view_account_info()
     
-print("\nThank you for your buisness!\n")
+print("\nThank you for your business!\n")

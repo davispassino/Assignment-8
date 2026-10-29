@@ -3,7 +3,7 @@
 def choose_an_option():
     print("Please choose an option:\n")
     print("A. Make a deposit")
-    print("B. Make a withdrawl")
+    print("B. Make a withdrawal")
     print("C. View account information")
     print("D. Quit\n")
     option = input().upper()
